@@ -1,0 +1,20 @@
+Read (Bil1, Bil2, Bil3)
+Max, Min
+
+If Bil1 > Bil2 then
+   Max=Bil1
+   Min=Bil2
+else
+   Max=Bil2
+   Min=Bil1
+endif
+
+if Bil 3 > Max then
+   Max=Bil3
+endif
+
+if Bil3 < Min then
+   Min=Bil3
+endif
+
+print(Max, Min)
