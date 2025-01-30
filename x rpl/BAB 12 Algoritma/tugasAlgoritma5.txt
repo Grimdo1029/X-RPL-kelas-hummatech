@@ -1,0 +1,13 @@
+BEGIN  
+
+    DECLARE data AS ARRAY OF INTEGER  
+    SET data = [27, 80, 8, 46, 16, 12, 50]  
+
+    CALL sort(data)  
+
+    PRINT "Deret data setelah diurutkan:"  
+    FOR EACH num IN data DO  
+        PRINT num  
+    END FOR  
+
+END
